@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Угадай число</h1>
+    <p id="diapasonText">Введите число от 1 до 100:</p>
+    <div class="container">
+        <div class="diapasonContainer">
+            <p>Диапазон чисел: </p>
+            <input type="number" id="diapasonInput" value="100">
+            <button id="setDiapason">Задать число</button>
+        </div>
+        <div class="result">
+            <input type="number" id="guessInput" min="1">
+            <button id="guessButton">Угадать</button>
+        </div>
+        <div>
+            <p id="message"></p>
+            <p id="hint"></p>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
