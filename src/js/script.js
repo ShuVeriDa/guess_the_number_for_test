@@ -56,6 +56,7 @@ setDiapason.addEventListener('click', (e) => {
   message.textContent = ''
   hint.textContent = ''
   diapason = diapasonInput.value
+  guessButton.disabled = false;
 
   if (diapason < 1) {
     message.textContent = `Введите корректное число от 1 до ${diapason}`;
